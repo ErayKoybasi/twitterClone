@@ -1,0 +1,611 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin-bottom: 80px;
+}
+
+header{
+  position: relative;
+  width: 100%;
+  height: 200vh;
+  background: #000;
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color:rgb(22,24,28);
+  border-radius: 0px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(62, 65, 68);
+}
+
+::-webkit-scrollbar-track-piece{
+  background-color: rgb(62, 65, 68);
+}
+
+::-webkit-scrollbar-button {
+  display: flex; 
+  background-color: #888; 
+}
+
+
+header aside{
+  width: 60%;
+  height: 100%;
+  background:#000;
+  padding: 15px 0px 15px 30px;
+  border: 1px solid #333;
+}
+
+header section{
+  position: relative;
+  width: 85%;
+  height: 100%;
+}
+
+header aside .logo{
+  font-size: 30px;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 30%;
+}
+
+.settings {
+  font-size: 20px;
+  padding-top: 15px;
+  margin-left: 30%;
+}
+
+.settings a{
+  text-decoration: none;
+  color: #fff ;
+}
+
+
+/* .settings:hover{
+  border: 1px black;
+  border-radius: 20px;
+  height: 50px;
+} */
+
+.navTab{
+  display: flex;
+  gap: 15px;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+.headBack{
+  color: #fff;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+
+
+.profilName{
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+ 
+}
+
+.textClass1{
+  color: rgb(113, 118, 123);
+  font-size: 13px;
+}
+
+.thumb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageThumb{
+  width: 100%;
+  height: 200px;
+}
+
+.borderAside{
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 15px;
+  width: 350px;
+}
+
+.google, .apple , .altLogos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  
+}
+
+.google, .apple, .altLogos{
+  border: 1px solid #dadce0;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 0px 0px 10px 5px;
+  font-size: 14px;
+  
+}
+
+.apple a{
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+
+.google a{
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+} 
+
+.altLogos a{
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.googleLogos, .appleLogos{
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.newX{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.alterAside{
+  background-color: rgb(22, 24, 28);
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 15px;
+  margin-top: 15px;
+  width: 350px;
+}
+
+.altInfo1{
+  color: rgb(113, 118, 123);
+}
+
+.contextsider{
+  margin-top: 15px;
+  margin-left: 10px;
+  
+}
+
+.altInfo{
+  color: rgb(113, 118, 123);
+  font-size: 12px;
+  
+}
+
+.altInfo a{
+  text-decoration: none;
+  color: #3498db;
+  
+}
+
+.altInfo a:hover{
+  text-decoration: underline;
+  color: #3498db;
+}
+
+
+.profileFirst{
+  margin-top: 15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.profileFirst img{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}
+.profileFirst p{
+ margin-left: 15px;
+ font-size: 20px;
+ color: #fff;
+}
+.cnn{
+  margin-left: 45px;
+  font-size: 10px;
+  color: rgb(113, 118, 123);
+}
+
+.btn{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 50%;
+  border-radius: 20px;
+  border: 0;
+  padding: 10px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+.btn1{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 52%;
+  border-radius: 20px;
+  border: 0;
+  padding: 10px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+.btn2{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 51%;
+  border-radius: 20px;
+  border: 0;
+  padding: 10px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #EFF3F4;
+  color: black;
+}
+
+.btn1:hover{
+  background-color: #EFF3F4;
+  color: black;
+}
+
+.btn2:hover{
+  background-color: #EFF3F4;
+  color: black;
+}
+
+.morethanmore{
+  margin-top: 20px;
+  color: #1d9bf0;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.contentHover:hover{
+background-color: rgba(255,255,255, 0.03);
+border-bottom-left-radius: 16px;
+border-bottom-right-radius: 16px;
+transition-duration: 0.2 ;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 5px;
+padding-bottom: 16px;
+}
+
+
+.profileFirstLogo{
+position: absolute;
+
+}
+
+.profileFirst:hover{
+  background-color: rgba(255,255,255, 0.03);
+
+}
+
+
+.profileFirstLogo img{
+  border-radius: 80px;
+  width: 150px;
+  height: 150px;
+  margin-top: 200px;
+  margin-right: 450px;
+}
+
+.btnfollow{
+  position: absolute;
+  margin-top: 43%;
+  margin-left: 80%;
+  
+}
+
+
+.btnFollow{
+  border-radius: 20px;
+  border: 0;
+  padding: 10px 16px;
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.info{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 15%;
+  color: white;
+}
+
+.info p{
+  margin-left: 5%;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.alterinfo{
+  margin-left: 5%;
+  color: rgb(113, 118, 123);
+}
+
+.calendar{
+  margin-left: 5%;
+}
+
+.alterinfo1{
+  color: rgb(113, 118, 123);
+}
+
+.dat{
+  margin-top: 20px;
+  color: rgb(113, 118, 123);
+}
+
+.follow123{
+  display: flex;
+  justify-content: start;
+}
+
+.follower{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 10px;
+  gap: 10px;
+  color: rgb(113, 118, 123);
+}
+
+
+.num1{
+  font-weight: 700;
+  color: #fff;
+  font-size: 15px;
+}
+
+
+.contextHash{
+  color: rgb(113, 118, 123);
+  padding: 30px 30px;
+}
+
+
+.footerAside{
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 300px;
+}
+
+.footerLinks a{
+text-decoration: none;
+font-size:13px ;
+color: rgb(113, 118, 123);
+}
+
+.contextElonTop{
+  margin-top: 50px;
+  width: 600px;
+}
+
+.contextElonTop ul{
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  
+}
+
+.contextElonTop ul li a{
+  text-decoration: none;
+  color: rgb(113, 118, 123);
+}
+
+.justHover li a:hover{
+  background-color: rgba(231,233,234, 0.1);
+  padding: 16px;
+  transition: 0.1s ease-in;
+}
+
+
+.justHover li a:hover{
+  text-decoration: underline;
+  text-decoration-color: #1d9bf0;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 15px;
+}
+
+.blank{
+  border: 1px solid #444;
+  width: 103%;
+  margin-top: 20px;
+}
+
+.pin{
+  display: flex;
+  margin-left: 10%;
+  margin-top: 5px;
+  color: rgb(113, 118, 123);
+}
+
+.pinned{
+  margin-left: 15px;
+  font-weight: 400;
+  color: rgb(113, 118, 123);
+}
+
+.twit{
+  display: flex;
+  
+}
+
+.twitlogo{
+  margin-top: 10px;
+  margin-left: 5%;
+  border-radius: 21px;
+  cursor: pointer;
+}
+
+.twitTitle{
+  color: #fff;
+  display: flex;
+   margin-top: 3%;
+   margin-left: 2%;
+
+}
+
+.twitTitle p{
+  cursor: pointer;
+}
+
+.twitTitle p:hover{
+  text-decoration: underline;
+}
+
+.twitbadge{
+  margin-top: 1%;
+  margin-left: 10px;
+}
+.date{
+  margin-top: 1px;
+  margin-left: 10px;
+  color: rgb(113, 118, 123);
+}
+
+.twitContent{
+  color: #fff;
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 12%;
+}
+
+.videos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.social{
+  margin-top: 15px;
+  color: rgb(113, 118, 123);
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.socialCharts{
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.down{
+  position: sticky;
+  top: 0;
+}
+
+.com:hover{
+  color: rgba(29,155,240, 1.00);
+  
+}
+
+.he:hover{
+  color: rgba(249,24,128);
+  border-radius: 15px;
+}
+
+.re:hover{
+  color: rgba(0,186,124)
+}
+
+.footerFixed{
+  z-index: 1;
+  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  height: 80px;
+}
+.footerEndOfEnd{
+  
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerinfo{
+  font-size: 19px;
+}
+.footerinfo1{
+  font-size: 15px;
+}
+
+.btnGroupFooter button{
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.giris{
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.kayit{
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: black;
+}
+
+.blank1{
+  width: 100%;
+  border: 1px solid #444;
+  margin-top: 20px;
+}
+
+/* Home Page */
+
